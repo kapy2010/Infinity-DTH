@@ -36,3 +36,19 @@ ul, .rsx-connector ul {
 	font-size: 34px;
 	padding: inherit;
 }
+
+.rsx-connector-brand a {
+	color: #fff;
+}
+
+@media (min-width: 1000px)
+.rsx-connector-brand-home {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
