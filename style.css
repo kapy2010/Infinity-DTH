@@ -1,0 +1,38 @@
+.rsx-connector {
+	position: relative;
+	background: #00549a;
+}
+
+.rsx-connector > .container {
+	position: static;
+	margin-bottom: 0;
+}
+
+@media (min-width: 1000px)
+.rsx-connector-nav {
+	width: auto;
+	position: static;
+	float: left;
+	margin-top: 20px;
+	background: none;
+	transform: none;
+	overflow: visible;
+}
+
+ul, .rsx-connector ul {
+	padding: 0;
+	margin: 0;
+}
+
+.rsx-connector ul>li {
+	list-style-type: none;
+}
+
+@media (min-width: 1000px)
+.rsx-connector-brand {
+	display: inline-block;
+	height: 57px;
+	margin-right: 28px;
+	font-size: 34px;
+	padding: inherit;
+}
